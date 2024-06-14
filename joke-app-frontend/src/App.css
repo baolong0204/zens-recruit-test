@@ -1,0 +1,111 @@
+.App {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 100px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-name {
+  font-size: 16px;
+  color: #333;
+}
+
+.banner {
+  text-align: center;
+  background-color: #18992e;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.banner p {
+  margin: 10px 0 0;
+  font-size: 18px;
+}
+
+.main-content {
+  text-align: center;
+  background-color: #fff;
+  padding: 50px 20px 0px 20px;
+}
+
+.joke-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.joke-text {
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+
+.joke-buttons {
+  text-align: center;
+}
+
+.joke-buttons .button {
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.funny {
+  background-color: #2675bf;
+  color: #fff;
+}
+
+.not-funny {
+  background-color: #18992e;
+  color: #fff;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px 0px 10px 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer p:first-of-type {
+  font-size: 14px;
+  color: #666;
+  padding: 0 300px;
+}
