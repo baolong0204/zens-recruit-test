@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 import avatar from './images/avatar.jpg';
-import logo from './images/logo.png';
+import logo from './images/logo.jpg';
 
 function App() {
   const [joke, setJoke] = useState(null);
@@ -45,7 +45,10 @@ function App() {
           <img src={logo} alt="Logo" className="logo" />
         </div>
         <div className="user-profile">
-          <span className="user-name">Cam</span>
+          <div className="user-name">
+            <span className="user-name-1">Handicrafted by</span>
+            <span className="user-name-2">Jim HSL</span>
+          </div>
           <img src={avatar} alt="User Avatar" className="user-avatar" />
         </div>
       </header>
